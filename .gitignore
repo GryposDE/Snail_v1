@@ -4,3 +4,4 @@
 **/*.zip
 output
 *.lck
+#auto_saved_files#
