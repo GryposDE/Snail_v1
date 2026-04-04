@@ -6063,7 +6063,7 @@
 		)
 		(uuid "58ec5d97-7f7a-4c50-8883-4880c32a213f")
 	)
-	(hierarchical_label "USB_NP"
+	(hierarchical_label "USB-"
 		(shape output)
 		(at 140.97 102.87 0)
 		(effects
@@ -6086,7 +6086,7 @@
 		)
 		(uuid "81858b32-7e42-44b3-9db2-068e163c725e")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB+"
 		(shape output)
 		(at 140.97 107.95 0)
 		(effects
@@ -6447,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 116.84 50.8 90)
+		(at 116.84 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6456,7 +6456,7 @@
 		(fields_autoplaced yes)
 		(uuid "123713ee-0c12-492c-a791-7a4e55d2816a")
 		(property "Reference" "D2"
-			(at 120.65 51.1174 90)
+			(at 120.65 42.2274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6465,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.65 53.6574 90)
+			(at 120.65 44.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 116.84 50.8 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 50.8 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 116.84 50.8 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6501,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 50.8 0)
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +8444,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 113.03 50.8 270)
+		(at 113.03 41.91 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8453,7 +8453,7 @@
 		(dnp no)
 		(uuid "939aee95-c327-47a3-b603-f3408725ec67")
 		(property "Reference" "D1"
-			(at 109.22 51.1174 90)
+			(at 109.22 42.2274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +8462,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 109.22 53.6574 90)
+			(at 109.22 44.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8471,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 113.03 50.8 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 50.8 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8489,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 113.03 50.8 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8498,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 50.8 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 41.91 0)
+		(at 116.84 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8737,7 +8737,7 @@
 		(dnp no)
 		(uuid "a257ffb9-177c-4057-befe-c7aaadd718a4")
 		(property "Reference" "R3"
-			(at 118.872 40.386 0)
+			(at 118.872 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8746,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 118.872 42.926 0)
+			(at 118.872 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8755,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 115.062 41.91 90)
+			(at 115.062 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 41.91 0)
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8773,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 41.91 0)
+			(at 116.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9401,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 41.91 0)
+		(at 113.03 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9409,7 +9409,7 @@
 		(dnp no)
 		(uuid "d40ed1d2-112d-4515-8923-99f3912232ce")
 		(property "Reference" "R2"
-			(at 111.252 40.64 0)
+			(at 111.252 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9418,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 111.252 43.18 0)
+			(at 111.252 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9427,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 111.252 41.91 90)
+			(at 111.252 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +9436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 41.91 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9445,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 41.91 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

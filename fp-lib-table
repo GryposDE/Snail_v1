@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "BY25Q32ES")(type "KiCad")(uri "${KIPRJMOD}/CADs/BY25Q32ESSIG/BY25Q32ES.pretty")(options "")(descr ""))
   (lib (name "JDY68A")(type "KiCad")(uri "${KIPRJMOD}/CADs/JDY68A/JDY-68A.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/CADs/LIB_830059539/830059539/KiCad")(options "")(descr ""))
 )

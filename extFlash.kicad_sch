@@ -1043,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BY25Q32ES.pretty:BY25Q32ES_SOIC-8_150mil"
+		(property "Footprint" "BY25Q32ES:BY25Q32ESSIG_SOIC-8_208mil"
 			(at 74.93 77.724 0)
 			(effects
 				(font

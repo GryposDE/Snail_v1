@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '830059539'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "830059539" (!) = "", "830059539", "Other", "710-830059539", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830059539?qs=2WXlatMagcHYgCay78JVZA%3D%3D", "WE-XTAL QUARTZ CRYSTAL 48.0 MHZ;", "https://www.mouser.de/datasheet/2/445/830059539-2005461.pdf", "1 mm"
+END_PART
+
+END.

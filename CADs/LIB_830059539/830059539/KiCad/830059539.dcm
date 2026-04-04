@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 830059539
+D WE-XTAL QUARTZ CRYSTAL 48.0 MHZ;
+K
+F https://www.mouser.de/datasheet/2/445/830059539-2005461.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.830059539 :1 ;WE-XTAL QUARTZ CRYSTAL 48.0 MHZ;
+"830059539"
+*STM C
+*NGS
+*PLB 1="CRYSTAL_1" 2="GND&LID_1" 3="CRYSTAL_2" 4="GND&LID_2"
+*MXP 4
+*DFN 830059539
+~!Mouser Part Number (710-830059539)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830059539?qs=2WXlatMagcHYgCay78JVZA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (830059539)
+~!Link Datasheet (https://www.mouser.de/datasheet/2/445/830059539-2005461.pdf)
+~!Height (1mm)
+~!3D_Model (830059539)
+"830059539"
+1.1!U 2.1!U 3.1!U 4.1!U 
