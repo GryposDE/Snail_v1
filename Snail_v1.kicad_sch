@@ -3952,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 187.452 138.43 90)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 249.682 138.43 90)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 262.382 138.43 90)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 151.13 177.8 0)
 			(effects
 				(font
@@ -4510,7 +4510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 161.29 177.8 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 166.37 177.8 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "LED2"
 			(at 267.97 150.1774 90)
 			(effects
 				(font
@@ -4644,7 +4644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 264.16 147.32 0)
 			(effects
 				(font
@@ -4789,7 +4789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 203.2 147.32 0)
 			(effects
 				(font
@@ -4868,7 +4868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 214.122 138.43 90)
 			(effects
 				(font
@@ -5219,7 +5219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 236.982 138.43 90)
 			(effects
 				(font
@@ -5280,7 +5280,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "LED1"
 			(at 255.27 150.1774 90)
 			(effects
 				(font
@@ -5289,7 +5289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 251.46 147.32 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 156.21 177.8 0)
 			(effects
 				(font
@@ -5565,7 +5565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 201.422 138.43 90)
 			(effects
 				(font
@@ -6195,7 +6195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 146.05 177.8 0)
 			(effects
 				(font
@@ -6319,7 +6319,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+OUT"
+		(property "Value" "LED0"
 			(at 242.57 150.1774 90)
 			(effects
 				(font
@@ -6328,7 +6328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 238.76 147.32 0)
 			(effects
 				(font
@@ -6547,7 +6547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 171.45 177.8 0)
 			(effects
 				(font
