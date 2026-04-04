@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BY25Q32ES")(type "KiCad")(uri "${KIPRJMOD}/CADs/BY25Q32ESSIG/BY25Q32ES.kicad_sym")(options "")(descr ""))
+  (lib (name "JDY-68A")(type "KiCad")(uri "${KIPRJMOD}/CADs/JDY68A/JDY-68A.kicad_sym")(options "")(descr ""))
+)
