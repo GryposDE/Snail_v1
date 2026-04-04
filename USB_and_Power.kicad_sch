@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_MPD_BH-18650-PC"
 			(at 135.636 59.69 90)
 			(effects
 				(font

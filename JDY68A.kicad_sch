@@ -3453,7 +3453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JDY68A:JDY-68A_Module"
 			(at 91.44 78.74 0)
 			(effects
 				(font
