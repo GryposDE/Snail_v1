@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV61070ADBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.2
+Released=2022-11-12 09:19:55
+Downloaded=2026-04-05 17:27:15
+3D=Y

@@ -1,0 +1,16 @@
+.TLV61070ADBVR :1 ;Switching Voltage Regulators
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="SW" 2="GND" 3="EN" 4="FB" 5="VOUT" 6="VIN"
+*MXP 6
+*DFN TLV61070ADBVR
+~!Mouser Part Number (595-TLV61070ADBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV61070ADBVR?qs=T%252BzbugeAwjhLlT1empixsw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV61070ADBVR)
+~!Link Datasheet (-)
+~!Height (1.45mm)
+~!3D_Model (TLV61070ADBVR)
+TLV61070ADBVR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

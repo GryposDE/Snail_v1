@@ -1664,6 +1664,12 @@
 		(uuid "354eb61f-9226-4253-9b5d-03dd24a670fc")
 	)
 	(junction
+		(at 152.4 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3847948c-be1e-4a0e-b8ba-956776d5f250")
+	)
+	(junction
 		(at 172.72 115.57)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -1686,6 +1692,18 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "9587e23d-1f17-42fe-b935-07b7bfec9f4c")
+	)
+	(junction
+		(at 139.7 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afa6db11-1970-4637-8cc5-13aa42d9d1f4")
+	)
+	(junction
+		(at 158.75 115.57)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "d7b70b95-90a8-4571-aaf3-18c01a00cd8b")
 	)
 	(no_connect
 		(at 105.41 95.25)
@@ -1742,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 92.71) (xy 176.53 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7c66ec-dc11-4562-bcee-bdc1b8206871")
+	)
+	(wire
+		(pts
 			(xy 133.35 87.63) (xy 133.35 80.01)
 		)
 		(stroke
@@ -1773,6 +1801,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 92.71) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11da8582-940c-4d28-98e4-c8dc7811964a")
+	)
+	(wire
+		(pts
 			(xy 179.07 68.58) (xy 184.15 68.58)
 		)
 		(stroke
@@ -1783,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 156.21 92.71)
+			(xy 105.41 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 92.71) (xy 176.53 92.71)
+			(xy 124.46 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1883,6 +1921,16 @@
 			(type default)
 		)
 		(uuid "3235e04f-3997-44e7-8996-9e6bd9201ed7")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eaadfc-ffcf-441e-909b-fd408dab9431")
 	)
 	(wire
 		(pts
@@ -1907,6 +1955,37 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 104.14) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5229d0d1-40a8-4765-a7b7-e74a56483576")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575d3618-a8be-4dfb-bd04-b4c45908edcd")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 152.4 115.57)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "59df6b86-8dae-4613-abc4-d53c22844ac9")
+	)
+	(wire
+		(pts
 			(xy 127 87.63) (xy 133.35 87.63)
 		)
 		(stroke
@@ -1915,6 +1994,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "59e50bec-d289-4891-a9fb-4e3781e5a054")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a61d10d-1dbf-48e0-9d17-01aca1da48c4")
 	)
 	(wire
 		(pts
@@ -2096,6 +2185,17 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 115.57) (xy 158.75 115.57)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bd174e0c-2543-41db-9f24-caf9338ccb8e")
+	)
+	(wire
+		(pts
 			(xy 60.96 85.09) (xy 77.47 85.09)
 		)
 		(stroke
@@ -2114,6 +2214,26 @@
 			(color 0 0 0 1)
 		)
 		(uuid "bde25d8e-6750-4d14-a306-910cfd765a42")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf61a401-1103-46d9-bcbf-f34f6282a200")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29d6fb4-29da-4d50-b7ad-6ab33341a2ec")
 	)
 	(wire
 		(pts
@@ -2222,6 +2342,17 @@
 			(justify right)
 		)
 		(uuid "253e7260-ed28-4310-b7f8-0c2debd55ee0")
+	)
+	(hierarchical_label "MCU_AUDIO"
+		(shape input)
+		(at 116.84 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1844fa3-7264-466f-8e5c-3fe76815baa9")
 	)
 	(hierarchical_label "UART_Tx"
 		(shape output)
@@ -2607,6 +2738,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "572b7a75-01c1-4876-9ee9-11c4aff7b55b")
+		(property "Reference" "C25"
+			(at 121.92 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 121.666 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05cbbf48-9b88-4b43-be53-3c9e10924645")
+		)
+		(pin "2"
+			(uuid "6876922d-18d8-42c2-8d5b-afac5fc3b709")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/d0e1ba84-93bf-4c92-b310-ee99f2c34828"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 123.19 87.63 180)
 		(unit 1)
@@ -2818,6 +3016,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 130.81 92.71 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81944579-3768-4e68-a389-7894dbbe9012")
+		(property "Reference" "R24"
+			(at 130.81 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kR"
+			(at 130.81 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 130.81 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46aaa675-4dfa-4acc-96cc-acb7984c147c")
+		)
+		(pin "2"
+			(uuid "f3b8992c-18f2-421d-855a-e633626b15e0")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/d0e1ba84-93bf-4c92-b310-ee99f2c34828"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 184.15 55.88 0)
 		(unit 1)
@@ -2886,6 +3152,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1cc721a-d7dd-42e1-b9b0-1327046f6c89")
+		(property "Reference" "R26"
+			(at 147.32 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kR"
+			(at 147.574 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.178 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b68831bc-c1ce-4b91-ad94-b46aa10377db")
+		)
+		(pin "2"
+			(uuid "fb33dde6-a19c-4a37-a01c-acf88f3b4755")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/d0e1ba84-93bf-4c92-b310-ee99f2c34828"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 223.52 88.9 0)
 		(unit 1)
@@ -2913,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 223.52 88.9 0)
 			(effects
 				(font
@@ -2947,6 +3280,74 @@
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/d0e1ba84-93bf-4c92-b310-ee99f2c34828"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 104.14 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3cdbda7-4c26-499e-8b51-7c012ff71bdc")
+		(property "Reference" "R25"
+			(at 130.81 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kR"
+			(at 130.81 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 130.81 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330b0c14-ea27-46ca-8dac-0800b4371f24")
+		)
+		(pin "2"
+			(uuid "6c145cf3-b6ce-4b42-8131-8df389682746")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/d0e1ba84-93bf-4c92-b310-ee99f2c34828"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3389,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 223.52 101.6 0)
 			(effects
 				(font
@@ -3737,8 +4138,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 158.75 92.71 90)
-		(mirror x)
+		(at 121.92 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3746,15 +4146,15 @@
 		(dnp no)
 		(uuid "fecd296f-96a0-4746-9373-7469739c3e9c")
 		(property "Reference" "C21"
-			(at 158.75 87.122 90)
+			(at 121.92 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 158.496 89.154 90)
+		(property "Value" "10uF"
+			(at 121.666 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 158.75 92.71 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 92.71 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 92.71 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -52,7 +52,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|53255002|114949998|2e7a9b6d-1e35-437f-ad0c-b1e90ec2c0d9|a98c4b7d-70a9-49f5-b94f-334c2bedfe2a",
+          "cant fix: connector is designed this way"
+        ],
+        [
+          "hole_clearance|53255002|114949998|2e7a9b6d-1e35-437f-ad0c-b1e90ec2c0d9|df063c2d-4597-4633-92da-ba28e6218fbc",
+          "cant fix: connector is designed this way"
+        ],
+        [
+          "hole_clearance|53255003|121050000|b8538b00-9ce6-46c5-80b0-3dd78cd1989e|2b237dec-a6df-4afc-8b0a-4201a83d5cc6",
+          "cant fix: connector is designed this way"
+        ],
+        [
+          "hole_clearance|53255003|121050000|b8538b00-9ce6-46c5-80b0-3dd78cd1989e|ce91afac-f45a-472d-bea2-4e0f992d7826",
+          "cant fix: connector is designed this way"
+        ]
+      ],
       "meta": {
         "version": 2
       },
