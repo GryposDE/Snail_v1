@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Snail v1")
-		(date "2026-03-29")
+		(date "2026-04-06")
 		(company "Author: Christian R")
 	)
 	(lib_symbols
@@ -726,7 +726,7 @@
 	)
 	(text_box "SPI-Mode: Mode0\n\nSPI-SCK freq: 100MHz"
 		(exclude_from_sim no)
-		(at 91.44 41.91 0)
+		(at 161.29 74.93 0)
 		(size 25.4 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -745,34 +745,34 @@
 		(uuid "a7f0ee0a-6ae3-4bc4-bd98-29a0ef2661a6")
 	)
 	(junction
-		(at 87.63 49.53)
+		(at 157.48 82.55)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "55394dda-d3b1-47ec-82d4-0b582de0be98")
 	)
 	(junction
-		(at 87.63 69.85)
+		(at 157.48 102.87)
 		(diameter 0)
 		(color 0 0 0 1)
 		(uuid "66f79c39-6505-4d91-a596-4e393cf22bf6")
 	)
 	(junction
-		(at 55.88 52.07)
+		(at 125.73 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e40fd616-6732-4f82-94f5-3716f95fd9b4")
 	)
 	(no_connect
-		(at 59.69 67.31)
+		(at 129.54 100.33)
 		(uuid "e2f3fcc2-01aa-464f-b5dc-79e66830218d")
 	)
 	(no_connect
-		(at 59.69 64.77)
+		(at 129.54 97.79)
 		(uuid "ee65698e-3081-40b5-a593-8dd4486e6655")
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 55.88 52.07)
+			(xy 113.03 85.09) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 59.69 59.69)
+			(xy 113.03 92.71) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 59.69 52.07)
+			(xy 125.73 85.09) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 40.64) (xy 55.88 41.91)
+			(xy 125.73 73.66) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0.3048)
@@ -813,7 +813,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 59.69 57.15)
+			(xy 113.03 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 62.23) (xy 87.63 69.85)
+			(xy 157.48 95.25) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0.3048)
@@ -834,7 +834,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 59.69 54.61)
+			(xy 113.03 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -844,7 +844,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 87.63 69.85)
+			(xy 157.48 105.41) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0.3048)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 85.09 69.85)
+			(xy 157.48 102.87) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0.3048)
@@ -866,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 85.09 49.53)
+			(xy 157.48 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0.3048)
@@ -877,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 55.88 52.07)
+			(xy 125.73 82.55) (xy 125.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 40.64) (xy 87.63 49.53)
+			(xy 157.48 73.66) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0.3048)
@@ -898,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 87.63 57.15)
+			(xy 157.48 82.55) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0.3048)
@@ -909,7 +909,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 43.18 57.15 180)
+		(at 113.03 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -920,7 +920,7 @@
 	)
 	(hierarchical_label "SPI_nCS"
 		(shape input)
-		(at 43.18 52.07 180)
+		(at 113.03 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -931,7 +931,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape output)
-		(at 43.18 59.69 180)
+		(at 113.03 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -942,7 +942,7 @@
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
-		(at 43.18 54.61 180)
+		(at 113.03 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -953,7 +953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 72.39 0)
+		(at 157.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -961,8 +961,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334e221e-1db0-48f6-9fe5-af8c845a813f")
-		(property "Reference" "#PWR027"
-			(at 87.63 78.74 0)
+		(property "Reference" "#PWR039"
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 77.47 0)
+			(at 157.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 72.39 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 72.39 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 72.39 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1011,7 @@
 		(instances
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/54eab4e0-8e74-4f4e-a800-9efd5c437213"
-					(reference "#PWR027")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1019,7 +1019,7 @@
 	)
 	(symbol
 		(lib_id "BY25Q32ES:BY25Q32ES")
-		(at 78.74 50.8 0)
+		(at 148.59 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1028,7 +1028,7 @@
 		(fields_autoplaced yes)
 		(uuid "58b0d7c5-680c-425d-96cd-088df00fd040")
 		(property "Reference" "U7"
-			(at 72.39 41.91 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 			)
 		)
 		(property "Value" "BY25Q32ES"
-			(at 72.39 44.45 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 			)
 		)
 		(property "Footprint" "BY25Q32ES:BY25Q32ESSIG_SOIC-8_208mil"
-			(at 74.93 77.724 0)
+			(at 144.78 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,8 +1052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 78.74 50.8 0)
+		(property "Datasheet" "https://www.byte-semi.com/wp-content/uploads/BY25Q32ES.pdf"
+			(at 148.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 50.8 0)
+			(at 148.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,16 +1105,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 40.64 0)
+		(at 157.48 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6530ebda-98de-4b37-ba97-f48b0efdfecb")
-		(property "Reference" "#PWR026"
-			(at 87.63 44.45 0)
+		(property "Reference" "#PWR038"
+			(at 157.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,15 +1122,19 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 87.63 35.56 0)
+			(at 154.178 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 40.64 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 40.64 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 40.64 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1166,7 @@
 		(instances
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/54eab4e0-8e74-4f4e-a800-9efd5c437213"
-					(reference "#PWR026")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1174,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 87.63 59.69 0)
+		(at 157.48 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1179,8 +1182,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d709ac9-4024-42da-85d3-80491cf7ed7a")
-		(property "Reference" "C18"
-			(at 92.456 58.674 0)
+		(property "Reference" "C21"
+			(at 162.306 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1191,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 92.456 61.214 0)
+			(at 162.306 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1199,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 87.63 59.69 0)
+			(at 157.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 59.69 0)
+			(at 157.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1217,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 87.63 59.69 0)
+			(at 157.48 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1234,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/54eab4e0-8e74-4f4e-a800-9efd5c437213"
-					(reference "C18")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1239,7 +1242,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 45.72 0)
+		(at 125.73 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1247,8 +1250,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3bb7b49-4ed8-4f7e-ae27-bc987a2c884b")
-		(property "Reference" "R11"
-			(at 53.34 44.4499 0)
+		(property "Reference" "R18"
+			(at 123.19 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1260,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 53.34 46.9899 0)
+			(at 123.19 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1269,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.658 45.72 90)
+			(at 127.508 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 45.72 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1287,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 45.72 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1304,7 @@
 		(instances
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/54eab4e0-8e74-4f4e-a800-9efd5c437213"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1309,16 +1312,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 55.88 40.64 0)
+		(at 125.73 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9a56970-b9df-4e2c-a98a-233e551db160")
-		(property "Reference" "#PWR025"
-			(at 55.88 44.45 0)
+		(property "Reference" "#PWR037"
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,15 +1329,19 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 55.88 35.56 0)
+			(at 122.682 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 255 0 0 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 40.64 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 40.64 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 40.64 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1373,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/54eab4e0-8e74-4f4e-a800-9efd5c437213"
-					(reference "#PWR025")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

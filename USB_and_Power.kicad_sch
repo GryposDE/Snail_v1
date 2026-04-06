@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Snail v1")
-		(date "2026-03-29")
+		(date "2026-04-06")
 		(company "Author: Christian R")
 	)
 	(lib_symbols
@@ -6122,7 +6122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "035fa3ac-938a-4c2c-b3a2-62d98c119519")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 106.172 88.9 0)
 			(effects
 				(font
@@ -6176,7 +6176,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0663e5d8-4b78-4b2d-be14-b2bd6e6bd573")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR022"
 			(at 275.59 52.07 0)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR010")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6422,7 +6422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123713ee-0c12-492c-a791-7a4e55d2816a")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 120.65 42.2274 90)
 			(effects
 				(font
@@ -6485,7 +6485,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "D2")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b31d8d1-4188-4357-86b3-226ba5d7bbe5")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -6599,7 +6599,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6615,7 +6615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b77c45d-d611-4688-8fb1-712fe6c10799")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR032"
 			(at 115.57 137.16 0)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR020")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d217bc9-4e49-4b60-9e7e-b5c77cf87847")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 142.24 74.93 0)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d6275b6-cf2b-4f15-b088-5881a7bdaeb1")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 71.12 87.6235 0)
 			(effects
 				(font
@@ -6802,7 +6802,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b2a8ffa-d7a9-45c7-8e94-4ef7080ddc60")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 205.74 50.8 0)
 			(effects
 				(font
@@ -6868,7 +6868,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6884,7 +6884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f05e97-df1c-4bbd-8947-0c2f947f5f7f")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 205.74 135.89 0)
 			(effects
 				(font
@@ -6938,7 +6938,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6953,7 +6953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "365c61ae-db53-4ec5-b539-e4411fa16e73")
-		(property "Reference" "C17"
+		(property "Reference" "C20"
 			(at 35.56 141.478 90)
 			(effects
 				(font
@@ -7005,7 +7005,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C17")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7021,7 +7021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40b69c73-c7f2-43d4-b92c-579675b58bf5")
-		(property "Reference" "R9"
+		(property "Reference" "R16"
 			(at 35.56 130.81 90)
 			(effects
 				(font
@@ -7073,7 +7073,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R9")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7088,7 +7088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a290b6-632b-4b64-83e1-f6183ce7a47f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 116.84 34.29 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 		(instances
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7157,7 +7157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d591d0e-004e-497c-a46a-e20fcc7f71ab")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 72.39 153.6699 0)
 			(effects
 				(font
@@ -7211,7 +7211,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50f3f7ca-0315-4ad8-b644-fe1a32e7679c")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 96.52 39.3635 0)
 			(effects
 				(font
@@ -7282,7 +7282,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "652c5d9b-93da-4f22-8e86-bad5aa6ad7e3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 201.93 33.02 0)
 			(effects
 				(font
@@ -7464,7 +7464,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR06")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7480,7 +7480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65e3459a-06fa-40f6-83c5-636a374f80d2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR035"
 			(at 39.37 158.75 0)
 			(effects
 				(font
@@ -7530,7 +7530,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR023")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7545,7 +7545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66fc0bef-b911-40e7-be1a-e2b310b219b7")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 254 135.89 0)
 			(effects
 				(font
@@ -7599,7 +7599,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7615,7 +7615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ec8cfc-27fb-43ca-9948-fee3e1a9ea74")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 194.056 135.89 0)
 			(effects
 				(font
@@ -7669,7 +7669,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cbd776b-b61c-4e51-881b-f203c9c58661")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 265.176 135.89 0)
 			(effects
 				(font
@@ -7738,7 +7738,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8005,7 +8005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d15f68-30b5-4a24-ae13-353698d2c4be")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR027"
 			(at 73.66 99.06 0)
 			(effects
 				(font
@@ -8055,7 +8055,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86287405-f659-4544-b06b-e19684f606e0")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 245.364 57.15 0)
 			(effects
 				(font
@@ -8124,7 +8124,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8220,7 +8220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91a5af02-535c-4f0e-9043-cd858d9d8eb7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR029"
 			(at 109.22 121.92 0)
 			(effects
 				(font
@@ -8274,7 +8274,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR017")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8289,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9304dfd1-e35b-4a81-aa6d-da1bc8e08442")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 258.064 57.15 0)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8358,7 +8358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "933a5d75-6182-42b7-8332-cb3ba83c2136")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -8411,7 +8411,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8427,7 +8427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "939aee95-c327-47a3-b603-f3408725ec67")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 109.22 42.2274 90)
 			(effects
 				(font
@@ -8490,7 +8490,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8505,7 +8505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "992face5-f020-432d-8323-d74f7d43d949")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 245.364 67.31 0)
 			(effects
 				(font
@@ -8559,7 +8559,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8575,7 +8575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1196cc6-4434-47a3-a8fe-bacdfda2aac4")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 67.564 127 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8646,7 +8646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12614fd-327d-407c-8ed9-9a806b496902")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 99.06 52.07 0)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8711,7 +8711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a257ffb9-177c-4057-befe-c7aaadd718a4")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 118.872 49.276 0)
 			(effects
 				(font
@@ -8765,7 +8765,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8781,7 +8781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a63e2474-e63b-41d2-9ddd-e8bf8668f436")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 69.85 138.43 0)
 			(effects
 				(font
@@ -8831,7 +8831,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8847,7 +8847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad095d95-c7a1-42b2-b036-1235b917009f")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 130.81 63.4935 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31daaf3-de42-4f39-99fe-7fcb4cb5a699")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR036"
 			(at 74.93 171.45 0)
 			(effects
 				(font
@@ -8967,7 +8967,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR024")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8982,7 +8982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e86057-82dc-405e-b3b1-ca5274c1fdd8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 267.97 123.19 0)
 			(effects
 				(font
@@ -9036,7 +9036,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc3052ec-629f-4eee-b55e-2fef5d52539e")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 121.158 88.392 0)
 			(effects
 				(font
@@ -9105,7 +9105,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9121,7 +9121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc6be6ba-25e3-4328-a3d4-d73163f2166a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -9171,7 +9171,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9187,7 +9187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc852a99-379f-489a-83bf-559bdf862786")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR034"
 			(at 229.87 157.48 0)
 			(effects
 				(font
@@ -9237,7 +9237,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR022")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9253,7 +9253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2eb12b2-3379-423b-84da-f986d69e20e8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3b180de-fc06-437e-9496-bd588ba2d006")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 69.85 81.28 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9383,7 +9383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d40ed1d2-112d-4515-8923-99f3912232ce")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 111.252 49.53 0)
 			(effects
 				(font
@@ -9437,7 +9437,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4746e6c-513c-4484-bf80-ff6b0cd37a60")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -9503,7 +9503,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9518,7 +9518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d70b99d4-3b52-4257-b46b-cd9358bc07f5")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 270.764 57.15 0)
 			(effects
 				(font
@@ -9572,7 +9572,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9588,7 +9588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e241f42c-dcd3-41c7-bdac-c3da83b06655")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 118.11 125.7235 0)
 			(effects
 				(font
@@ -9642,7 +9642,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9658,7 +9658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb7e6966-05ff-4a4b-a331-0bea352e1e78")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 201.93 38.0999 0)
 			(effects
 				(font
@@ -9712,7 +9712,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9727,7 +9727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8f0d12a-7659-4426-96be-7e8fa710f9a3")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 113.284 88.646 0)
 			(effects
 				(font
@@ -9781,7 +9781,7 @@
 		(instances
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)

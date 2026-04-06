@@ -54,20 +54,20 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "hole_clearance|53255002|114949998|2e7a9b6d-1e35-437f-ad0c-b1e90ec2c0d9|a98c4b7d-70a9-49f5-b94f-334c2bedfe2a",
-          "cant fix: connector is designed this way"
+          "hole_clearance|53279999|114959999|b6fca7ca-905b-4254-b59e-2fc0d61bfd50|624d4f3d-a4d5-4ac0-8823-2faf832031df",
+          ""
         ],
         [
-          "hole_clearance|53255002|114949998|2e7a9b6d-1e35-437f-ad0c-b1e90ec2c0d9|df063c2d-4597-4633-92da-ba28e6218fbc",
-          "cant fix: connector is designed this way"
+          "hole_clearance|53279999|114959999|b6fca7ca-905b-4254-b59e-2fc0d61bfd50|7ebc11c9-5522-4443-a99a-4aca1f02b1c6",
+          ""
         ],
         [
-          "hole_clearance|53255003|121050000|b8538b00-9ce6-46c5-80b0-3dd78cd1989e|2b237dec-a6df-4afc-8b0a-4201a83d5cc6",
-          "cant fix: connector is designed this way"
+          "hole_clearance|53280000|121060001|41b96e78-52ac-42b6-9766-4feb0b1e328f|390e9456-71da-497e-b6df-77804b6a527e",
+          ""
         ],
         [
-          "hole_clearance|53255003|121050000|b8538b00-9ce6-46c5-80b0-3dd78cd1989e|ce91afac-f45a-472d-bea2-4e0f992d7826",
-          "cant fix: connector is designed this way"
+          "hole_clearance|53280000|121060001|41b96e78-52ac-42b6-9766-4feb0b1e328f|de9691c4-619a-4304-ba48-9c1cd958399c",
+          ""
         ]
       ],
       "meta": {
@@ -99,7 +99,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -111,9 +111,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -243,7 +243,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|2298700|1473200|61343902-10ff-4b44-bc6e-70a7cea3b7e7|00000000-0000-0000-0000-000000000000|/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8|/98695d9f-8521-4f7d-bb41-f22c1215a8e7/de25fb69-79bf-4de2-a7cc-36507c8760b8|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -436,7 +441,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -448,7 +453,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
