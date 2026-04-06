@@ -3782,10 +3782,10 @@
 		)
 		(uuid "5a760be5-5fc8-4c48-b302-e13a0c2dec40")
 	)
-	(text_box "FUSB303BTMX\n\n- ADDR/ORIENT: floating -> GPIO-Mode\n- VBUS_DET: can handle up to 28V\n- PORT/DEBUG_N: low -> system is USB sink"
+	(text_box "FUSB303BTMX\n\n- ADDR/ORIENT: floating -> GPIO-Mode\n- VBUS_DET: can handle up to 28V\n- PORT/DEBUG_N: low -> system is USB sink\n- ID: tells if dev is source/sink -> we dont need this info"
 		(exclude_from_sim no)
 		(at 92.71 160.02 0)
-		(size 48.26 13.97)
+		(size 60.96 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

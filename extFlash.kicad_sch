@@ -744,6 +744,26 @@
 		)
 		(uuid "a7f0ee0a-6ae3-4bc4-bd98-29a0ef2661a6")
 	)
+	(text_box "HOLD#/IO3: can be left floating if no QSPI is used\n\nWP#/IO2: can be left floating if no QSPI is used"
+		(exclude_from_sim no)
+		(at 90.17 96.52 0)
+		(size 36.83 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b53a9c4d-b1cf-44fa-b678-f3328449f7cb")
+	)
 	(junction
 		(at 157.48 82.55)
 		(diameter 0)
