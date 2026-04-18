@@ -2119,6 +2119,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3040,6 +3165,17 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 29.21) (xy 276.86 27.94)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "225a412e-7775-4128-b33d-2504345bda53")
+	)
+	(wire
+		(pts
 			(xy 130.81 77.47) (xy 140.97 77.47)
 		)
 		(stroke
@@ -3092,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 27.94) (xy 262.89 27.94)
+			(xy 245.11 27.94) (xy 255.27 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3132,11 +3268,12 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 22.86) (xy 256.54 19.05)
+			(xy 250.19 22.86) (xy 250.19 21.59)
 		)
 		(stroke
-			(width 0)
+			(width 0.3048)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "3691cb1a-4bf1-4afd-85b5-068cbb94ecdb")
 	)
@@ -3264,6 +3401,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "4929b0e3-fa51-4a56-ac36-6eb548659af4")
+	)
+	(wire
+		(pts
+			(xy 276.86 27.94) (xy 271.78 27.94)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4a9e0bcb-207d-4372-9f0a-9c1f345a5b90")
 	)
 	(wire
 		(pts
@@ -3874,11 +4022,12 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 22.86) (xy 256.54 22.86)
+			(xy 255.27 22.86) (xy 250.19 22.86)
 		)
 		(stroke
-			(width 0)
+			(width 0.3048)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "ccf65eed-b3bf-44c7-ac12-975e22166866")
 	)
@@ -4036,6 +4185,17 @@
 			(type default)
 		)
 		(uuid "df2bc008-e64a-4548-9004-0141e15595bb")
+	)
+	(wire
+		(pts
+			(xy 271.78 22.86) (xy 276.86 22.86)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "df84ef51-36b3-45f0-bdcf-e03713fe6bf4")
 	)
 	(wire
 		(pts
@@ -4216,6 +4376,17 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 22.86) (xy 276.86 21.59)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "faf94e7f-0529-47a6-8f6e-67d25113c00e")
+	)
+	(wire
+		(pts
 			(xy 199.39 142.24) (xy 199.39 143.51)
 		)
 		(stroke
@@ -4258,7 +4429,7 @@
 	)
 	(global_label "nGPIO0"
 		(shape bidirectional)
-		(at 256.54 27.94 180)
+		(at 245.11 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4268,7 +4439,7 @@
 		)
 		(uuid "076b8016-7f60-44b4-9671-0df579e9d85c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.6097 27.94 0)
+			(at 234.1797 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,6 +5723,72 @@
 			(project ""
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 266.7 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eb2dfe6-2dec-4796-9fa6-d73b064acb83")
+		(property "Reference" "J11"
+			(at 266.7 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 267.208 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 266.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f60e327f-3eda-4f77-8cda-ceb7125dfd31")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6912,7 +7149,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 267.97 27.94 0)
+		(at 260.35 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6920,7 +7157,7 @@
 		(dnp no)
 		(uuid "51a1ae34-e783-462e-b1b7-65a04bec2645")
 		(property "Reference" "J6"
-			(at 267.97 33.274 0)
+			(at 260.096 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,15 +7165,16 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 267.97 30.734 0)
+			(at 260.35 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 267.97 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7192,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,6 +8104,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 276.86 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "872e4daa-93fe-4a87-a233-d16b7fd1d924")
+		(property "Reference" "#PWR051"
+			(at 276.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BAT"
+			(at 276.86 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 276.86 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c41fe7ab-c124-4b5e-b856-4071878fb525")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G431K6Tx")
 		(at 118.11 76.2 0)
 		(unit 1)
@@ -8092,8 +8396,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 276.86 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53d14f4-52a3-49d8-9e58-a4998a174149")
+		(property "Reference" "#PWR052"
+			(at 276.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d463c292-a342-4c0f-9607-60a4cbafedc8")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 267.97 22.86 0)
+		(at 260.35 22.86 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8102,7 +8471,7 @@
 		(dnp no)
 		(uuid "aa9bf7a9-cabf-4a0f-8d2a-ea37955c03db")
 		(property "Reference" "J7"
-			(at 267.97 17.018 0)
+			(at 260.35 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,15 +8479,16 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 267.97 19.558 0)
+			(at 260.35 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 267.97 22.86 0)
+			(at 260.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 22.86 0)
+			(at 260.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 22.86 0)
+			(at 260.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,6 +8655,72 @@
 			(project "Snail_v1"
 				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 266.7 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb4afedc-9190-4fca-9921-671614a0e030")
+		(property "Reference" "J12"
+			(at 266.446 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 267.716 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a788ab7b-4a8c-484e-840f-94c3756e903c")
+		)
+		(instances
+			(project "Snail_v1"
+				(path "/98695d9f-8521-4f7d-bb41-f22c1215a8e7"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8564,7 +9000,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 256.54 19.05 0)
+		(at 250.19 21.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8573,7 +9009,7 @@
 		(dnp no)
 		(uuid "cb922bda-d2d1-4eb6-8dab-06d399ccea6f")
 		(property "Reference" "#PWR049"
-			(at 256.54 22.86 0)
+			(at 250.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8582,7 +9018,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 256.54 14.986 0)
+			(at 250.19 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +9029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 19.05 0)
+			(at 250.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +9038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 19.05 0)
+			(at 250.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +9047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 19.05 0)
+			(at 250.19 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
